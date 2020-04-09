@@ -42,7 +42,6 @@ difference() {
         cylinder(d=5, h=11);
         cylinder(d=6.3-.5, h=6*1.5);
         cylinder(d1=6.3+1, d2=6.3-.5, h=2);
-
       }
     }
     translate([0, 0, -28/2]) {

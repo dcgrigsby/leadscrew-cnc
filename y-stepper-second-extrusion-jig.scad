@@ -9,12 +9,12 @@ difference() {
     //main hollow box
     difference() {
       cube([xz+padding*2, y, xz+padding]);
-      translate([3, 3, -1]) {
-        cube([xz, y, xz]);
+      translate([padding, padding, padding]) {
+        cube([xz, y, xz+1]);
       }
     }
     //channel
-    translate([(xz+padding*2)/2 - channel_xz/2, 0, xz-channel_xz]) {
+    translate([(xz+padding*2)/2 - channel_xz/2, 0, padding]) {
       cube([channel_xz, y, channel_xz]);
     }
   }
