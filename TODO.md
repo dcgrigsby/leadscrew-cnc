@@ -1,7 +1,7 @@
 # To be able to calculate CG, to be able to size/cut/drill x gantry
 ## print
-z-nut-housing-mounting-plate * 1
 z-rail-mounting-plate * 2
+z-nut-housing-mounting-plate * 1
 x-nut-housing-mounting-plate * 1
 ## then measure weights and arms
 
