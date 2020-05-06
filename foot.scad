@@ -2,7 +2,7 @@ $fn=100;
 xy = 38.1;
 channel_xz = 8.128;
 
-drill_dia = 6.35;
+drill_dia = 7.9375;
 
 difference() {
   union() {
